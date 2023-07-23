@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.left img{
+    padding: 6px;
+    width: 50px;
+    height: 42px;
+}
+header{
+    position: sticky;
+    top: 0; 
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.container{
+    padding: 0 10vw;
+   
+}
+.searchbar{
+    width: 350px;
+    height: 36px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 60 40px;   
+}
+
+.searchbar > i{
+    color: #777;
+}
+.searchbar > input{
+    flex: 1;
+    height: 22px;
+    border: none;
+    padding-left: 20px;
+    background-color:  rgb(237, 237, 237);
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.menu:hover{
+    color: rgb(245, 6, 102);
+}
+
+.list:hover{
+    color: rgb(245, 6, 102);
+}
+
+.sec1{
+    padding: 0 2px;
+    width: 200px;
+    margin: 3px 6px;
+    border-radius: 6px;
+}
+.sec2{
+    padding: 0 2px;
+    width: 200px;
+    margin: 3px 6px;
+    border-radius: 6px;
+}
+.semibold{
+   font-weight: bold;
+   font-size: smaller;
+}
+.main{
+    width: 100%;
+    padding: 20px 0 ;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(245, 6, 102);
+}
+
+.bttn{
+    margin: 10px; 
+    border-radius: 50%; 
+    border:0.5px solid rgb(99, 93, 93); 
+    padding: 15px; 
+    color: rgb(36, 36, 67); 
+    background-color: white;
+}
+.cart{
+   
+    padding: 20px;
+    background-color: rgb(245, 6, 102);
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.cart > i{
+    color: white;
+}
+.cart > input{
+    flex: 1;
+    color: white;
+    background-color: rgb(245, 6, 102);
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.wish{
+    padding: 20px;
+    background-color: white;
+    color:rgb(32, 32, 108);
+    border: 0.5px solid;
+    border-color:  rgb(32, 32, 108);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.wish > i{
+    color:rgb(32, 32, 108);
+
+}
+
+.wish > input{
+    flex: 1;
+    color: rgb(32, 32, 108);
+    background-color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.bttn:hover{
+    margin: 10px; 
+    border-radius: 50%; 
+    border:0.5px solid rgb(245, 6, 102); 
+    padding: 15px; 
+    color: rgb(36, 36, 67); 
+    background-color: white;
+    
+}
+
+.cart:hover{
+    padding: 20px;
+    background-color: rgb(245, 6, 102);
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid rgb(108, 20, 55);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.wish:hover{
+    padding: 20px;
+    background-color: white;
+    color:rgb(32, 32, 108);
+    border: 2px solid;
+    border-color:  rgb(13, 13, 63);
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media (max-width: 1108px){
+    header{
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+    
+        display: flex;
+    }
+    .rightBox{
+        display: flex;
+         margin: 18px;
+         flex-direction: column;
+    }
+}
